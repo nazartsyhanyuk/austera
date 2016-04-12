@@ -1,0 +1,201 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1360px) {
+    .our_services {
+        padding: 0;
+    }
+    .our_services .first_block .service_items .service_item {
+        max-width: 40%;
+        align-items: center;
+        text-align: center;
+    }
+    .our_services .second_block {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .our_services .second_block .left_block {
+        width: 60%;
+        text-align: center;
+    }
+    .our_services .second_block .right_block {
+        width: 85%;
+        margin-top: 50px;
+    }
+    .our_services .third_block {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .our_services .third_block .left_block {
+        max-width: 95%;
+        margin: 50px 0;
+    }
+    .our_services .third_block .right_block {
+        max-width: 60%;
+        text-align: center;
+        padding: 0;
+    }
+    .features .features_items .feature_item {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    /*.features .man_near_blackboard .right_block {
+        padding-right: 0;
+        padding-left: 1%;
+    }
+    .features .man_near_blackboard .right_block * {
+        margin-top: 1%;
+    }
+    .features .man_near_blackboard .right_block h1 {
+        font-size: 1.7em;
+    }*/
+    .features .man_near_blackboard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .features .man_near_blackboard .left_block {
+        width: 100%;
+    }
+    .features .man_near_blackboard .right_block {
+        width: 100%;
+        align-items: center;
+        margin: 50px 0;
+        text-align: center;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 840px) {
+    header {
+        height: 650px;
+    }
+    .title h1 {
+        font-size: 2em;
+    }
+    .title h3 {
+        font-size: 0.9em;
+    }
+    .logo_and_nav {
+        flex-direction: column;
+        position: absolute;
+        padding-top: 20px;
+        justify-content: flex-start;
+        align-items: center;
+        height: 135px;
+    }
+    .logo_and_nav nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .logo_and_nav .navbar {
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        -webkit-padding-start: 0;
+        font-size: 1.3em;
+        /*background-color: rgba(0,0,0, 0.7);*/
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
+        margin-top: 10px;
+    }
+    .logo_and_nav .navbar li {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    #nav-icon3 {
+        display: block;
+        font-size: 2em;
+    }
+    .our_services .first_block .service_items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our_services .first_block .service_items .service_item {
+        max-width: 80%;
+        align-items: center;
+        align-content: center;
+    }
+    .features .man_near_blackboard .right_block {
+        width: 80%;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .features .man_near_blackboard .right_block h1 {
+        font-size: 2em;
+    }
+    .features .features_items .feature_item {
+        max-width: 50%;
+    }
+    .contact_information {
+        flex-direction: column;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .our_services .second_block .left_block {
+        width: 80%;
+    }
+    .our_services .second_block .right_block {
+        width: 95%;
+    }
+    .features .features_items .feature_item {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 840px) {
+    .logo_and_nav .navbar {
+        display: block !important;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
