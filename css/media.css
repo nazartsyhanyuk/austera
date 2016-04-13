@@ -87,7 +87,7 @@
     }
     .logo_and_nav {
         flex-direction: column;
-        position: absolute;
+        padding-bottom: 10px;
         padding-top: 20px;
         justify-content: flex-start;
         align-items: center;
@@ -109,7 +109,8 @@
         font-size: 1.3em;
         /*background-color: rgba(0,0,0, 0.7);*/
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
-        margin-top: 10px;
+        padding-left: 0;
+        margin-top: 0;
     }
     .logo_and_nav .navbar li {
         display: block;
@@ -153,15 +154,20 @@
     }
     .contact_information {
         flex-direction: column;
+        text-align: center;
         width: 100%;
         padding: 0;
+    }
+    .contact_information .contact_with_us {
+        text-align: center;
     }
     .contact_information .contact_with_us h1 {
         font-size: 3em;
         text-align: center;
     }
-    .contact_information .contact_with_us .social {
-        align-content: center;
+    .contact_information .contact_with_us .social p {
+        text-align: center;
+        margin: 0 auto;
     }
     .contact_information .contact_form {
         width: 100%;
