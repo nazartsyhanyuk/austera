@@ -178,6 +178,8 @@ header {
 }
 
 .search .inner {
+  display: flex;
+  align-items: center;
   min-width: 14px;
   height: 20px;
   margin: 1px;
@@ -444,9 +446,11 @@ main {
 }
 .our_team .all_team_items .team_item {
     display: flex;
+    width: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 .our_team .all_team_items .team_item h2 {
     letter-spacing: 5px;
