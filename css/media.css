@@ -87,7 +87,7 @@
     }
     .logo_and_nav {
         flex-direction: column;
-        padding-bottom: 10px;
+        padding-bottom: 25px;
         padding-top: 20px;
         justify-content: flex-start;
         align-items: center;
@@ -110,7 +110,7 @@
         /*background-color: rgba(0,0,0, 0.7);*/
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
         padding-left: 0;
-        margin-top: 0;
+        margin-top: 9.5px;
     }
     .logo_and_nav .navbar li {
         display: block;
