@@ -287,8 +287,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 20%;
     max-width: 20%;
     margin: 10px 15px;
+}
+.our_services .first_block .service_items .service_item p {
+    width: 100%;
 }
 .our_services .first_block .check_services {
     margin-top: 100px;
